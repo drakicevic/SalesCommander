@@ -29,5 +29,7 @@ public class Main {
 		session.save(emp);
 		// Commit, calling of commit will cause save an instance of employee
 		session.getTransaction().commit();
+		
+		System.out.println("Git proba");
 	}
 }
